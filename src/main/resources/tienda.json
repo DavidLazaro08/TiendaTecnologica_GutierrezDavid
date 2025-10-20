@@ -1,0 +1,110 @@
+{
+  "tienda": {
+    "nombre": "Mi Tienda Online",
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Electrónica",
+        "productos": [
+          {
+            "id": 101,
+            "nombre": "Smartphone",
+            "precio": 999.99,
+            "descripcion": "El último smartphone del mercado.",
+            "caracteristicas": {
+              "pantalla": "6.5 pulgadas",
+              "camara": "48 MP",
+              "bateria": "4500 mAh"
+            },
+            "inventario": 10
+          },
+          {
+            "id": 102,
+            "nombre": "Portátil Ultrabook",
+            "precio": 1299.0,
+            "descripcion": "Ultrabook ligero con SSD y 16GB RAM.",
+            "caracteristicas": {
+              "pantalla": "14 pulgadas",
+              "cpu": "Intel i7 12th Gen",
+              "ram": "16 GB",
+              "almacenamiento": "512 GB SSD"
+            },
+            "inventario": 7
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Accesorios",
+        "productos": [
+          {
+            "id": 201,
+            "nombre": "Ratón inalámbrico",
+            "precio": 24.99,
+            "descripcion": "Ratón Bluetooth silencioso.",
+            "caracteristicas": {
+              "dpi": "1600",
+              "conexion": "Bluetooth 5.0"
+            },
+            "inventario": 35
+          },
+          {
+            "id": 202,
+            "nombre": "Auriculares Over-Ear",
+            "precio": 79.9,
+            "descripcion": "Auriculares con cancelación pasiva.",
+            "caracteristicas": {
+              "tipo": "Over-Ear",
+              "microfono": "Sí",
+              "cable": "Jack 3.5mm"
+            },
+            "inventario": 18
+          }
+        ]
+      }
+    ],
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Juan Pérez",
+        "email": "juanperez@example.com",
+        "direccion": {
+          "calle": "Calle Principal",
+          "numero": 123,
+          "ciudad": "Madrid",
+          "pais": "España"
+        },
+        "historialCompras": [
+          {
+            "productoId": 101,
+            "cantidad": 2,
+            "fecha": "2023-11-14"
+          },
+          {
+            "productoId": 201,
+            "cantidad": 1,
+            "fecha": "2024-03-05"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "David Lázaro",
+        "email": "empirio14@gmail.com",
+        "direccion": {
+          "calle": "C/ Zapillo 2ºC",
+          "numero": 7,
+          "ciudad": "Sevilla",
+          "pais": "España"
+        },
+        "historialCompras": [
+          {
+            "productoId": 202,
+            "cantidad": 1,
+            "fecha": "2024-06-21"
+          }
+        ]
+      }
+    ]
+  }
+}
