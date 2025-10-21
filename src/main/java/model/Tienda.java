@@ -30,7 +30,7 @@ public class Tienda {
         return usuarios;
     }
 
-    public Usuario buscarUsuarioPorId(long id) {
+    public Usuario buscarUsuarioPorId(int id) {
         for (Usuario u : usuarios) {
             if (u.getId() == id) {
                 return u;
@@ -39,7 +39,7 @@ public class Tienda {
         return null;
     }
 
-    public Producto buscarProductoPorId(long id) {
+    public Producto buscarProductoPorId(int id) {
         for (Producto p : productos) {
             if (p.getId() == id) {
                 return p;

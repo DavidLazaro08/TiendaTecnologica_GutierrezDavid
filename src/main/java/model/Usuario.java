@@ -10,13 +10,13 @@ import java.util.ArrayList;
 
 public class Usuario {
 
-    private long id;
+    private int id;
     private String nombre;
     private String email;
     private String direccion;
     private ArrayList<String> historialCompras;
 
-    public Usuario(long id, String nombre, String email, String direccion) {
+    public Usuario(int id, String nombre, String email, String direccion) {
         this.id = id;
         this.nombre = nombre;
         this.email = email;
@@ -24,7 +24,7 @@ public class Usuario {
         this.historialCompras = new ArrayList<>();
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
@@ -44,7 +44,8 @@ public class Usuario {
         return historialCompras;
     }
 
-    public void agregarCompra(String compra) {
+    // Método usado por el lector para cargar compras desde el JSON
+    public void cargarCompra(String compra) {
         historialCompras.add(compra);
     }
 

@@ -1,19 +1,19 @@
 package model;
 
 /* Clase: Producto
- * Representa un producto dentro de nuestra tienda de tecnológica.
+ * Representa un producto dentro de nuestra tienda tecnológica.
  * Contiene la información básica tal y como aparece en el JSON. */
 
 public class Producto {
 
-    private long id;
+    private int id;
     private String nombre;
     private double precio;
     private String descripcion;
     private String categoria;
-    private long inventario;
+    private int inventario;
 
-    public Producto(long id, String nombre, double precio, String descripcion, String categoria, long inventario) {
+    public Producto(int id, String nombre, double precio, String descripcion, String categoria, int inventario) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -22,7 +22,7 @@ public class Producto {
         this.inventario = inventario;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
@@ -42,7 +42,7 @@ public class Producto {
         return categoria;
     }
 
-    public long getInventario() {
+    public int getInventario() {
         return inventario;
     }
 
