@@ -46,6 +46,10 @@ public class Producto {
         return inventario;
     }
 
+    public void setInventario(int inventario) {
+        this.inventario = inventario;
+    }
+
     @Override
     public String toString() {
         return nombre + " (" + categoria + ") - " + precio + "€ [" + inventario + " uds]";
