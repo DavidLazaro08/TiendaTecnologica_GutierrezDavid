@@ -58,7 +58,7 @@ src/
 ### 🧱 Diagrama inicial (fase de diseño)
 Representa la planificación previa del sistema, antes de programar.
 
-![Diagrama de Clases Inicial](Diagrama%20de%20Clases%20Inicial_Tienda%20Tecnológica.png)
+![Diagrama de clases inicial](DiagramaClasesInicial_v2.png)
 
 ### ⚙️ Diagrama final (ingeniería inversa)
 Generado automáticamente con el plugin **SimpleUML** de IntelliJ.  
